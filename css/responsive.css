@@ -17,5 +17,39 @@
     main{
         width: 100%;
         padding: 0 20px;
+
+        &.container{
+            width: 100%;
+            margin: 0 12px;
+        }
     }
+
+    .login_image{
+        display: none;
+    }
+
+    .cont{
+        width: 100%;
+        padding: 16px;
+
+        .content{
+            align-items: start;
+
+            form{
+                width: 80%;
+
+             .form-input{
+                padding: 12px;
+             }
+            }
+          
+            /* background-color: red; */
+
+            .inner_content{
+                /* background: yellow; */
+                width: 100%;
+            }
+        }
+    }
+
 }
