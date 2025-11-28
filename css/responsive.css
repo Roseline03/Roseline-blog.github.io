@@ -1,0 +1,21 @@
+@media screen and (max-width: 767px){
+    .hero-card{
+        flex-direction: column;
+        height: fit-content;
+
+        figure{
+            width: 100%;
+        }
+        div{
+            width: 100%;
+        }
+    }
+
+    .article_cont{
+        grid-template-columns: repeat(1,100%);
+    }
+    main{
+        width: 100%;
+        padding: 0 20px;
+    }
+}

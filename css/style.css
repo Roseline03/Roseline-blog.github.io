@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #E0E0E0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: white;
+    padding: 10px 10px;
+    width: 900px;
+    height: 550px;
+    border-radius: 16px;
+    display: flex;
+}
+
+.content{
+     width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: brown; */
+} 
+
+.cont{
+    padding: 30px;
+    /* background-color: red; */
+    width: 50%;
+
+}
+
+figure{
+    width: 50%;
+    height: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+h4{
+    color: #141617;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+h1{
+    color: #141617;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+p{
+    color: gray;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.inner_content{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    gap: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 65%;
+
+    input{
+        border: 1px solid gray;
+        border-radius: 5px;
+        font-size: 12px;
+        padding: 7px 12px;
+        outline: 0;
+    }
+}
+
+.password{
+    font-weight: 400;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link_btn{
+    background-color: #7736FF;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 12px 24px;
+    width: fit-content;
+    text-decoration: none;
+}
